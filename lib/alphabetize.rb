@@ -2,6 +2,7 @@ def alphabetize(arr)
  x = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split
  
   arr.sort_by do |word|
-    word.split('').colle
+    word.split('').collect do |letter|
+      
 end
 end
